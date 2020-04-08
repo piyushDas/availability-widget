@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*:focus {
+    outline: 0;
+}
+
+:root {
+    --secondary-text: #777;
+    --primary-button-bg:#ff0047;
+}
+
+.availability-widget {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+.availability-widget > div{
+    width: 300px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+.upper > div{
+    color: var(--secondary-text);
+    padding: 12px 0;
+    
+}
+
+.upper > div:first-of-type {
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.c-black {
+    color: #333;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.pv-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.pv-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.pv-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.button {
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    /* margin: 0 5%; */
+    border: none;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.select {
+    -webkit-appearance: button;
+    font-size: 15px;
+    height: 38px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    width: 100%;
+    background:#fff;
+}
+
+.primary-button {
+    background-color: var(--primary-button-bg);
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.tt-u{
+    text-transform: uppercase;
+}
+
+.caption {
+    font-size: 14px;
+    color: gold;
+}
+
+.separator {
+    width: 96%;
+    margin: 10px 2%;
+}
+
+.end-circles {
+    border-right: 1px solid;
+    border-radius: 50%;
+    box-shadow: 3px 0 #ccc inset;
+    width: 20px;
+}
+
+
+.upper {
+    box-shadow: 0 -6px 7px #ccc;
+    padding: 16px;
+}
+
+.lower {
+    box-shadow: 0 5px 7px #ccc;
+    padding: 16px;
+    padding-top: 0px;
+}
+
+.curve {
+    height: 35px;
+    width: 30px;
+    box-shadow: -3px 0 0px #ccc inset;
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    border-radius: 25px;
+}
+
+.curve.right{
+    right: -18px;
+    box-shadow: 3px 0 0px #ccc inset;
+    left: auto;
+}
+
+.middle {
+    position: relative;
+    height: 30px;
+}
+
+hr.dotted-line {
+    border-top: 1px dotted #ccc;
+}
+
+.dotted-spaced {
+    background-image: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 13px 2px;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+  }
+
+  .help {
+    padding: 1px 5px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-left: 7px;
+    font-size: 12px;
+    height: 20px;
+  }
+
+  .lower img {
+      height: 28px;
+  }
+
+  .upper img{
+      height: 22px;
+      margin-right: 4px;
+  }
+
+  .align-center{
+      align-items: center;
+  }
